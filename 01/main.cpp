@@ -14,7 +14,7 @@ int main( int argc, char** argv )
         imageName = argv[1];
     }
     else {
-        cout << "Usage: " << "./01" << " " << " pic_file_path" << endl;
+        cout << "Usage: " << argv[0] << " " << " pic_file_path" << endl;
         cout << "Now use default image" << endl;
     }
     Mat image = imread( imageName, IMREAD_COLOR ); // Read the file
