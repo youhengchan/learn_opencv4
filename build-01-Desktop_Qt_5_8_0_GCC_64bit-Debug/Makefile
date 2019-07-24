@@ -200,6 +200,7 @@ DIST          = /opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/spec_post.prf \
+		../01/.qmake.stash \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/default_pre.prf \
@@ -375,6 +376,7 @@ Makefile: ../01/01.pro /opt/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++/qmake.conf /opt
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/default_pre.prf \
@@ -540,6 +542,7 @@ Makefile: ../01/01.pro /opt/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++/qmake.conf /opt
 /opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/qt_config.prf:
 /opt/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++/qmake.conf:
 /opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/exclusive_builds.prf:
 /opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/toolchain.prf:
 /opt/Qt5.8.0/5.8/gcc_64/mkspecs/features/default_pre.prf:
